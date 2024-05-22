@@ -147,6 +147,8 @@ User BBoard::get_user(const std::string &name) const
 			return user_list[counter];
 		}
 	}
+
+	return User();
 }
 
 // Displays all messages.

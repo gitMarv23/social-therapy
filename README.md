@@ -8,7 +8,15 @@ At the user's discretion, we also plan to implement an AI that will analyze the 
 By no means is this professional or medical software. This is simply a project for fun and practicing with AI.
 
 ## Building the Program
-Building the program is as simple as entering the following command:
+1. Create a build directory and change the current working directory to it:
+```bash
+mkdir build && cd build
+```
+2. Run CMake and point it to the project directory (where the CMakeLists.txt file is located):
+```bash
+cmake ..
+```
+3. Finally, build the project:
 ```bash
 make
 ```
