@@ -23,7 +23,12 @@ make
 This will run the Makefile and compile the source code to create the executable _Social_Therapy_.
 
 ## Program Execution
-To run the program, simply enter
+To run the program, you must first change the current working directory to the _src_ directory:
+
+```bash
+cd src
+```
+Finally, simply run the executable:
 ```bash
 ./Social_Therapy credentials.dat
 ```
