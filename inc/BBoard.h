@@ -29,6 +29,8 @@ class BBoard
 		void setup(const std::string&);
 		void login();
 		void run();
+		void saveBoard();
+		void loadBoard();
 };
 
 #endif
